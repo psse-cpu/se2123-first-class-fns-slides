@@ -165,7 +165,7 @@ int main() {
 #### Shared, mutable state means no concurrency
 
 * Forget Java concurrency features
-  - or just think of the ever-popular, which has no `synchronized` keyword
+  - or just think of the ever-popular JS, which has no `synchronized` keyword
 
 ![mutable](images/mutable.jpg)
 
