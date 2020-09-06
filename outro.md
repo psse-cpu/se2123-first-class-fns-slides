@@ -5,4 +5,4 @@ Credits
 
 
 
-## And that's it for Preparation
+## And that's it for First-class Functions
