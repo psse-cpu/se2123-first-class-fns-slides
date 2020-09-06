@@ -180,21 +180,23 @@ console.log(evens)
 
 ```html
 <!-- Run in your browser -->
-<html>
-  <body>
-    <button id="greeter">Say Hello!</button>
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;button id="greeter"&gt;Say Hello!&lt;/button&gt;
 
-    <script>
+    &lt;script&gt;
       function sayHello() {
         alert("Hello PSSE!");
       }
 
       const button = document.getElementById('greeter');
       button.onclick = sayHello; // not sayHello()
-    </script>
-  </body>
-</html>
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 ```
+
+* Double-click your file, it should probably run in your browser (or _"open with Chrome"_)
 
 
 
