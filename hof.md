@@ -153,6 +153,15 @@ OOOOOOOOOUUUUUUUUUCCCHHHHHH
 
 
 
+### Using it in `setTimeout`
+
+![demo hof](images/hof.gif)
+
+* The result of `scream('help', false)` is:
+  + a no-arg function, compatible with `setTimeout`!
+
+
+
 ### Templates, with missing info
 
 ![template](images/template.png)
