@@ -252,7 +252,7 @@ for (let i = 1; i &lt;= tasks.length; i++) {
 * Functions are a good way of _"enapsulating"_ tasks
   - take that OOP ~~hashira~~ pillar!
   - Java's class is named `TimerTask` 😱😱😱
-* Functions act like _"zip files" for several LOC
+* Functions act like _"zip files"_ for several LOC
   - you can only upload 1 file in Canvas, but you have 3 `.dart` files, what you do?
     + zip your 3 `.dart` files!
   - you can only pass one _"thing"_ to `setTimeout`, but you have 3 lines of code, what you do?
