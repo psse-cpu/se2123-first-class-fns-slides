@@ -56,12 +56,12 @@ so funny LLLLOOOLLLLLZZZZ, and cute HIHI ♥ */
 // can't use arrow function here, since `this` will be wrong
 Number.prototype.times = function times(task) {
   for (let i = 0; i &lt; this; i++) {
-    task();
+    task(i);
   }
 }
 
-(5).times(() => { // punctuations make this ugly in JS though
-   console.log('hehe');
+(5).times((i) => { // punctuations make this ugly in JS though
+   console.log('hehe #' + i);
 });
 ```
 
