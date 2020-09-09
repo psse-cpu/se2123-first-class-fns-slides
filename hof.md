@@ -195,7 +195,7 @@ OOOOOOOOOUUUUUUUUUCCCHHHHHH
 function makeHotDrink() {
   console.log('Boil water');
   /* Step 2: brew step */
-  console.log('Pour water in cup');
+  console.log('Pour liquid in cup');
   /* Step 4;  add condiments */
 }
 ```
@@ -216,7 +216,7 @@ function makeHotDrink() {
 function makeHotDrink(brewStep, finalStep) {
   console.log('Boil water');
   brewStep();
-  console.log('Pour water in cup');
+  console.log('Pour liquid in cup');
   finalStep();
 }
 
@@ -258,7 +258,7 @@ const addChocoCondiments =
 Boil water
 Grind coffee beans
 Brew in French press
-Pour water in cup
+Pour liquid in cup
 Adding cream
 Adding 2 tsp. sugar.
 
@@ -266,40 +266,40 @@ Adding 2 tsp. sugar.
 Boil water
 Grind coffee beans
 Brew in French press
-Pour water in cup
+Pour liquid in cup
 Just black
 Adding 1 tsp. sugar.
 
 > makeHotDrink(brewTea, addTeaCondiments(true, true));
 Boil water
 Steep tea bag
-Pour water in cup
+Pour liquid in cup
 Adding honey
 Dropping mint leaves
 
 > makeHotDrink(brewTea, addTeaCondiments(true, false));
 Boil water
 Steep tea bag
-Pour water in cup
+Pour liquid in cup
 Adding honey
 
 > makeHotDrink(brewTea, addTeaCondiments(false, true));
 Boil water
 Steep tea bag
-Pour water in cup
+Pour liquid in cup
 Dropping mint leaves
 
 > makeHotDrink(brewTea, addTeaCondiments(false, false));
 Boil water
 Steep tea bag
-Pour water in cup
+Pour liquid in cup
 
 > makeHotDrink(brewHotChoco, addChocoCondiments(5, 2, 1))
 Boil water
 Chop chocolate into bits
 Melt choco bits in microwave
 Mix melted choco in hot milk
-Pour water in cup
+Pour liquid in cup
 Adding 5 pcs. marshmallows.
 Adding 2 mL milk
 Adding 1 tsp. sugar
@@ -311,7 +311,7 @@ imma weirdo/barista
 Boil water
 Grind coffee beans
 Brew in French press
-Pour water in cup
+Pour liquid in cup
 Adding honey
 Dropping mint leaves
 ```
