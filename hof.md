@@ -46,7 +46,7 @@ so funny LLLLOOOLLLLLZZZZ, and cute HIHI ♥ */
 
 ![monkey patching](images/monkey-patching.jpg)
 
-- modify JS methods without inheritance
+- add/modify JS methods without inheritance
 
 
 
