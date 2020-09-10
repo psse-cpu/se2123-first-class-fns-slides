@@ -401,7 +401,6 @@ Array.prototype.where = function where(predicate) {
   - or `self` in Python methods
 
 ```js
-// don't export this helper function
 Array.prototype.where = function where(predicate) {
   const [head, ...tail] = this;
 
