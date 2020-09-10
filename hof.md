@@ -371,7 +371,7 @@ Array.prototype.where = function where(predicate) {
 
 
 
-### Some students asked about avoiding `for-of`
+#### Some students asked about avoiding `for-of`
 
 You can always use recursion if you're confident
 
