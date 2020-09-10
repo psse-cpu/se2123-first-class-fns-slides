@@ -394,6 +394,29 @@ Array.prototype.where = function where(predicate) {
 
 
 
+#### Or for the no-helper version
+
+* If you recognize that the object itself is a param
+  - think of `.call` or `.apply` methods of `Function`
+  - or `self` in Python methods
+
+```js
+// don't export this helper function
+Array.prototype.where = function where(predicate) {
+  const [head, ...tail] = this;
+
+  if (head === undefined) {
+    return []
+  }
+
+  return predicate(head) 
+    ? [head, ...tail.where(predicate)]
+    : [...tail.where(predicate)];
+}
+```
+
+
+
 ### Analyze this properly, coz...
 
 + It's **YOUR** turn to **RECREATE** (see last bullet)
