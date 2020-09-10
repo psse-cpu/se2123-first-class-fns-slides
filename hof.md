@@ -371,6 +371,29 @@ Array.prototype.where = function where(predicate) {
 
 
 
+### Some students asked about avoiding `for-of`
+
+You can always use recursion if you're confident
+
+```js
+// don't export this helper function
+const filterHelper = (predicate, [head, ...tail]) => {
+  if (head === undefined) {
+    return []
+  }
+
+  return predicate(head) 
+    ? [head, ...filterHelper(predicate, tail)]
+    : [...filterHelper(predicate, tail)];
+}
+
+Array.prototype.where = function where(predicate) {
+  return filterHelper(predicate, this);
+}
+```
+
+
+
 ### Analyze this properly, coz...
 
 + It's **YOUR** turn to **RECREATE** (see last bullet)
